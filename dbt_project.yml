@@ -7,7 +7,7 @@ version: '1.0.0'
 config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'qteam_demo_analytics'
+profile: 'default'
 # These configurations specify where dbt should look for different types of files.
 # The `source-paths` config, for example, states that models in this project can be
 # found in the "models/" directory. You probably won't need to change these!
@@ -73,24 +73,6 @@ dbt-cloud:
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
-
-models:
-  analytics:
-    staging:
-      +materialized: view
-
-    marts:
-      core:
-        +materialized: table
-        +grants:  
-          select: ['dashboard_user']
-      
-seeds:
-  analytics:
-    snowflake_contract_rates:
-      +column_types:
-        effective_date: DATE
-        rate: NUMBER
 
 snapshots:
   +target_schema: snapshots_dev
