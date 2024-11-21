@@ -47,7 +47,7 @@ dbt-cloud:
 
   # SA Demo Account (North America) - Data Analytics
   account-host: "xa199.us1.dbt.com"
-  project-id: "70403103978138"
+  project-id: "70403103965787"
 
   # # SA Demo Account (EMEA) - Data Analytics
   # account-host: "emea.dbt.com"
