@@ -1,0 +1,15 @@
+employee_id,employee_name,department_name,department_id,years_of_experience,direct_boss
+1,Alice Johnson,Executive,100,20,
+2,Bob Smith,Finance,101,15,1
+3,Charlie Brown,Finance,101,10,2
+4,Diane Miller,Finance,101,8,2
+5,Ethan Williams,Engineering,102,18,1
+6,Fiona Davis,Engineering,102,12,5
+7,George Clark,Engineering,102,7,5
+8,Hannah Lewis,HR,103,16,1
+9,Ian Wilson,HR,103,9,8
+10,Jessica Martin,Marketing,104,14,1
+11,Kevin Anderson,Marketing,104,10,10
+12,Laura Thomas,Sales,105,17,1
+13,Michael White,Sales,105,11,12
+14,Nancy Harris,Sales,105,9,12

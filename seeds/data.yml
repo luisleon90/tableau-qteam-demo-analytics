@@ -10,3 +10,87 @@ seeds:
        description: effective date of contract
      - name: rate
        description: rate based on the effective date
+
+- name: activity_log
+  description: >
+    This is a sample data set of activity in Tableau.
+  columns:
+     - name: Actor_User_Luid
+       description: Luid of acting user for each action
+     - name: Document_Index_generated
+       description: generated primary key for the table
+     - name: Endpoint_Name
+       description: End point name
+     - name: Event_Outcome
+       description: activity outcome
+     - name: Event_Outcome_Reason
+       description: HTTP status associated to the outcome
+     - name: Event_Time
+       description: event time
+     - name: Initiating_User_Id
+       description: userID of the initiating user for each action
+     - name: Initiating_User_Luid
+       description: Luid of the initiating user
+     - name: initiatingUserEmail
+       description: email of the initiating user
+     - name: licensingRoleName
+       description: license and role assocaited to the user
+     - name: Ip_Address
+       description: IP address of the initiating user
+     - name: Method
+       description: http method
+     - name: Referrer
+       description: referrer
+     - name: Request_Id
+       description: requestID
+     - name: Request_Uri
+       description: request URI
+     - name: Service_Name
+       description: Tableau Service Name
+     - name: Session_Id
+       description: Session ID
+     - name: Site_Luid
+       description: Luid for the Site
+     - name: Site_Name
+       description: Site Name
+     - name: Site_Uri
+       description: Site URI
+     - name: Trace_Uuid
+       description: Trace Uuid
+     - name: User_Agent
+       description: User agent ID
+     - name: View_Id
+       description: View ID
+     - name: View_Name
+       description: View name
+     - name: View_Repo_Url
+       description: view repo URL
+     - name: Vizql_Session_Id
+       description: VizQL Session ID
+     - name: Workbook_Id
+       description: Workbook ID
+     - name: Workbook_Name
+       description: Workbook Name
+     - name: Duration
+       description: Duration
+     - name: Number_of_Records_per_vizqlserver
+       description: Number of records per Viz
+     - name: Workbook_Revision
+       description: Workbook revision
+
+- name: org_chart
+  description: >
+    This is an example data set of an org chart.
+  columns:
+     - name: employee_id
+       description: ID identifying the employee
+     - name: employee_name
+       description: Employees name
+     - name: department_name
+       description: Employees Department Name
+     - name: department_id
+       description: Department ID
+     - name: years_of_experience
+       description: Employees years of tenure at the company
+     - name: direct_boss
+       description: Employees direct supervisor
