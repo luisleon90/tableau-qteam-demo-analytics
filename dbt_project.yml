@@ -2,7 +2,7 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good project name should reflect your organization's
 # name or the intended use of these models
-name: 'qteam_demo_analytics'
+name: 'tableau_qteam_analytics'
 version: '1.0.0'
 config-version: 2
 
@@ -76,3 +76,8 @@ dbt-cloud:
 
 snapshots:
   +target_schema: snapshots_dev
+
+seeds:
+  +enabled: true
+  +database: TABLEAU_QTEAM_DEMO
+  +schema: raw
