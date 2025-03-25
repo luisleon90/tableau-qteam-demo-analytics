@@ -1,0 +1,10 @@
+version: 2
+
+metrics:
+  # Simple metrics
+  - name: page_visit_duraiton
+    description: The total time spent on each page
+    type: simple
+    label: Page Visit Duration (Secs)
+    type_params:
+      measure: page_visit_duration
