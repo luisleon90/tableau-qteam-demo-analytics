@@ -3,8 +3,10 @@ semantic_models:
   description: Activity log fact table capturing user interactions and organizational
     context.
   model: ref('fct_activity_log')
+
   defaults:
     agg_time_dimension: event_time
+
   entities:
   - name: activity_log
     type: primary
@@ -27,6 +29,7 @@ semantic_models:
   - name: workbook
     type: foreign
     expr: workbook_id
+
   dimensions:
   - name: tableau_endpoint_name
     type: categorical
@@ -80,47 +83,56 @@ semantic_models:
     type: categorical
   - name: department_name
     type: categorical
+  
   measures:
   - name: page_visit_duration
     description: Duration of page visits in seconds.
     agg: sum
-    create_metric: true
+    expr: page_visit_duraiton
+  
   - name: records_per_event
     description: Number of records per event.
     agg: sum
     create_metric: true
+    label: 'Records Per Visit'
+  
   - name: workbook_revision
     description: Revision number of the workbook.
     agg: max
     create_metric: true
-  - name: employee_tenure
-    description: Tenure of the employee in the organization.
-    agg: average
-    create_metric: true
+    label: 'Workbook Revisions (Max)'
+  
   - name: count_activity_log
     agg: count
     create_metric: true
     expr: activity_log_id
+    label: 'Activity Log Records (Internal)'
+  
   - name: count_actor
     agg: count_distinct
     create_metric: true
     expr: actor_id
+  
   - name: count_employee
     agg: count_distinct
     create_metric: true
     expr: employee_id
+  
   - name: count_department
     agg: count_distinct
     create_metric: true
     expr: department_id
+  
   - name: count_boss_employee
     agg: count_distinct
     create_metric: true
     expr: boss_employee_id
+  
   - name: count_view
     agg: count_distinct
     create_metric: true
     expr: view_id
+  
   - name: count_workbook
     agg: count_distinct
     create_metric: true
