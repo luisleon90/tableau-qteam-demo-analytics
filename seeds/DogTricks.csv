@@ -1,0 +1,201 @@
+dog_id,trick_id,proficiency_level,last_practiced
+15,1,Fetching Fantastic,2021-07-11
+81,2,Fetching Fantastic,2022-10-10
+95,3,Tail-wagging Good,2022-10-11
+84,4,Needs More Treats,2023-07-05
+90,5,Paw-some,2024-05-09
+12,6,Needs More Treats,2025-01-09
+37,7,Paw-some,2025-11-15
+33,8,Paw-some,2024-05-24
+60,9,Fetching Fantastic,2021-07-01
+8,10,Fetching Fantastic,2025-06-19
+98,11,Paw-some,2024-10-29
+14,12,So-So,2022-09-12
+55,13,Tail-wagging Good,2024-05-25
+30,14,Paw-some,2022-06-28
+34,15,Paw-some,2021-03-25
+35,16,Fetching Fantastic,2023-04-29
+99,17,Paw-some,2025-09-12
+76,18,Fetching Fantastic,2023-11-19
+77,19,So-So,2020-12-30
+94,20,Fetching Fantastic,2021-07-03
+88,21,Tail-wagging Good,2022-03-12
+95,22,Tail-wagging Good,2021-05-03
+15,23,Needs More Treats,2025-06-01
+18,24,Tail-wagging Good,2023-02-17
+70,25,Fetching Fantastic,2023-09-27
+16,26,Paw-some,2022-08-08
+48,27,Tail-wagging Good,2022-01-14
+47,28,Paw-some,2020-05-16
+35,29,Tail-wagging Good,2023-10-27
+47,30,So-So,2023-04-26
+7,31,So-So,2025-05-11
+9,32,Tail-wagging Good,2020-01-28
+53,33,So-So,2022-08-13
+38,34,Fetching Fantastic,2021-08-08
+47,35,So-So,2024-04-21
+36,36,Fetching Fantastic,2025-07-04
+1,37,So-So,2020-10-06
+18,38,Paw-some,2025-01-20
+63,39,Tail-wagging Good,2022-01-29
+43,40,Paw-some,2022-12-27
+29,41,Tail-wagging Good,2021-12-27
+27,42,Fetching Fantastic,2021-07-20
+10,43,Fetching Fantastic,2022-03-28
+55,44,Fetching Fantastic,2020-10-07
+45,45,Needs More Treats,2022-11-12
+69,46,Fetching Fantastic,2021-06-12
+85,47,Needs More Treats,2024-12-15
+10,48,Tail-wagging Good,2025-06-24
+21,49,Tail-wagging Good,2025-01-15
+23,50,Tail-wagging Good,2020-09-15
+82,51,Paw-some,2020-10-27
+80,52,So-So,2020-08-19
+30,53,Tail-wagging Good,2025-07-02
+71,54,Paw-some,2024-10-05
+12,55,Fetching Fantastic,2020-08-05
+37,56,Fetching Fantastic,2024-11-19
+91,57,Fetching Fantastic,2021-10-30
+65,58,Needs More Treats,2023-05-24
+98,59,Fetching Fantastic,2022-02-10
+100,60,So-So,2024-08-30
+49,61,Paw-some,2023-01-25
+8,62,Paw-some,2025-09-05
+81,63,Needs More Treats,2020-11-24
+46,64,Fetching Fantastic,2020-09-11
+28,65,Fetching Fantastic,2025-03-27
+60,66,So-So,2024-05-20
+76,67,Tail-wagging Good,2022-10-27
+73,68,Tail-wagging Good,2024-08-10
+26,69,Paw-some,2022-10-17
+60,70,Tail-wagging Good,2025-01-26
+65,71,So-So,2023-08-12
+14,72,Tail-wagging Good,2025-01-18
+57,73,Needs More Treats,2023-04-19
+26,74,So-So,2021-12-13
+45,75,So-So,2023-12-20
+78,76,Needs More Treats,2020-05-18
+41,77,Tail-wagging Good,2020-08-05
+44,78,Tail-wagging Good,2020-08-28
+92,79,So-So,2020-04-02
+90,80,Fetching Fantastic,2023-09-28
+78,81,Tail-wagging Good,2025-02-05
+80,82,Paw-some,2025-08-12
+4,83,Needs More Treats,2022-12-07
+55,84,Fetching Fantastic,2025-10-21
+97,85,So-So,2021-01-09
+83,86,Paw-some,2025-09-01
+94,87,Tail-wagging Good,2022-06-02
+14,88,Needs More Treats,2020-12-22
+41,89,Fetching Fantastic,2025-09-29
+50,90,So-So,2020-08-22
+55,91,Fetching Fantastic,2021-03-25
+48,92,Tail-wagging Good,2025-08-20
+31,93,Fetching Fantastic,2021-08-10
+17,94,Paw-some,2021-11-24
+48,95,Needs More Treats,2024-07-11
+49,96,Fetching Fantastic,2020-05-04
+50,97,Needs More Treats,2025-07-05
+91,98,Needs More Treats,2024-02-25
+72,99,Fetching Fantastic,2020-12-30
+37,100,Needs More Treats,2021-09-14
+91,101,Fetching Fantastic,2021-09-11
+89,102,Needs More Treats,2023-11-11
+86,103,Paw-some,2022-01-31
+25,104,So-So,2024-11-26
+27,105,Fetching Fantastic,2021-03-27
+9,106,Needs More Treats,2021-11-07
+49,107,So-So,2025-12-28
+27,108,Paw-some,2022-02-05
+24,109,Needs More Treats,2021-08-28
+25,110,Paw-some,2025-10-12
+7,111,Fetching Fantastic,2021-06-18
+44,112,Fetching Fantastic,2021-10-10
+49,113,So-So,2020-08-31
+84,114,Tail-wagging Good,2021-12-29
+9,115,Fetching Fantastic,2021-05-05
+14,116,So-So,2023-12-24
+78,117,Fetching Fantastic,2020-12-24
+71,118,Needs More Treats,2025-09-11
+80,119,Paw-some,2024-07-21
+6,120,Paw-some,2022-08-11
+47,121,So-So,2023-11-30
+20,122,Needs More Treats,2023-01-13
+22,123,Paw-some,2021-04-02
+46,124,So-So,2021-07-20
+60,125,Needs More Treats,2021-06-04
+54,126,Paw-some,2022-02-17
+44,127,So-So,2022-03-17
+39,128,So-So,2025-07-03
+99,129,So-So,2025-04-13
+38,130,Tail-wagging Good,2022-07-09
+42,131,Fetching Fantastic,2024-08-18
+55,132,Needs More Treats,2022-08-02
+95,133,Needs More Treats,2021-12-08
+22,134,So-So,2021-04-04
+58,135,So-So,2021-07-12
+87,136,Tail-wagging Good,2020-02-25
+18,137,Fetching Fantastic,2020-06-29
+85,138,Paw-some,2023-11-05
+60,139,So-So,2021-06-15
+18,140,Fetching Fantastic,2024-03-12
+53,141,Tail-wagging Good,2025-08-05
+70,142,Paw-some,2025-07-22
+81,143,Paw-some,2025-06-23
+46,144,Needs More Treats,2021-01-28
+41,145,Fetching Fantastic,2021-01-19
+16,146,Needs More Treats,2022-10-25
+4,147,So-So,2023-02-25
+91,148,Tail-wagging Good,2023-09-19
+19,149,Tail-wagging Good,2021-08-11
+90,150,So-So,2020-09-17
+46,151,Needs More Treats,2022-04-11
+42,152,Needs More Treats,2021-08-19
+86,153,So-So,2021-05-06
+27,154,So-So,2024-09-16
+16,155,Needs More Treats,2024-03-11
+92,156,Fetching Fantastic,2020-08-10
+38,157,Needs More Treats,2023-12-16
+47,158,Needs More Treats,2024-11-15
+79,159,Fetching Fantastic,2023-12-19
+7,160,Fetching Fantastic,2025-10-13
+13,161,Fetching Fantastic,2022-07-08
+90,162,So-So,2020-04-09
+57,163,Tail-wagging Good,2023-05-12
+82,164,Fetching Fantastic,2023-01-13
+71,165,So-So,2020-03-26
+82,166,Needs More Treats,2022-05-15
+79,167,Fetching Fantastic,2021-11-21
+30,168,Fetching Fantastic,2021-09-17
+3,169,Fetching Fantastic,2025-10-01
+59,170,Paw-some,2020-09-16
+61,171,Needs More Treats,2022-01-07
+9,172,Fetching Fantastic,2021-04-25
+31,173,Needs More Treats,2023-04-10
+10,174,Paw-some,2025-07-15
+27,175,Needs More Treats,2023-10-30
+27,176,Fetching Fantastic,2021-01-12
+83,177,Needs More Treats,2020-08-27
+77,178,Fetching Fantastic,2025-01-30
+26,179,Paw-some,2023-03-27
+46,180,Paw-some,2022-08-03
+48,181,Tail-wagging Good,2025-01-10
+1,182,Needs More Treats,2024-09-05
+39,183,Needs More Treats,2022-03-23
+89,184,Tail-wagging Good,2025-05-27
+36,185,Fetching Fantastic,2025-01-09
+87,186,Needs More Treats,2025-06-28
+2,187,Fetching Fantastic,2025-03-15
+44,188,Paw-some,2024-08-13
+80,189,Needs More Treats,2024-03-15
+8,190,Fetching Fantastic,2023-09-13
+45,191,Fetching Fantastic,2024-03-08
+22,192,Tail-wagging Good,2024-11-19
+53,193,Paw-some,2025-07-18
+11,194,Fetching Fantastic,2021-06-22
+94,195,Tail-wagging Good,2021-12-11
+86,196,Needs More Treats,2024-01-17
+56,197,Paw-some,2020-06-22
+71,198,Needs More Treats,2020-10-30
+89,199,Paw-some,2025-11-27
+19,200,Tail-wagging Good,2025-02-11

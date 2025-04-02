@@ -1,0 +1,171 @@
+version: 2
+
+models:
+- name: stg_org_chart_Dogs
+  description: Master list of all dog employees.
+  columns:
+    - name: employee_id
+      description: Unique identifier for each dog.
+      data_tests: 
+        - unique
+        - not_null
+    - name: bark_name
+      description: Dog's name.
+    - name: breed_title
+      description: Dog's breed as their title.
+    - name: pack_department
+      description: Dog's pack (department).
+    - name: top_dog_id
+      description: ID of the dog's superior.
+    - name: email_sniff
+      description: Dog's email address.
+    - name: phone_howl
+      description: Dog's phone number.
+    - name: adoption_date
+      description: Date the dog joined the company.
+    - name: departure_date
+      description: Date the dog left the company.
+    - name: kennel_id
+      data_tests:
+        - relationships:
+            to: source('org_chart', 'Kennel')
+            field: pack_id
+      description: ID of the dog's kennel (location).
+    - name: pack_id
+      description: ID of the dog's pack.
+      data_tests:
+        - relationships:
+            to: source('org_chart', 'Packs')
+            field: pack_id
+    - name: created_at
+      description: Record creation timestamp.
+    - name: updated_at
+      description: Record update timestam
+- name: stg_org_chart_Packs
+  description: List of packs (departments) in the company.
+  columns:
+    - name: pack_id
+      description: Unique identifier for each Pack.
+    - name: pack_name
+      description: Pack name.
+    - name: pack_howl
+      description: Pack How
+- name: stg_org_chart_Kennels
+  description: Locations (kennels) where dogs live/work.
+  columns:
+    - name: kennel_id
+      description: Unique identifier for each kennel.
+      data_tests: 
+        - unique
+        - not_null
+    - name: kennel_name
+      description: Kennel name.
+    - name: kennel_address
+      description: Kennel address.
+    - name: city_where
+      description: City of the kennel.
+    - name: state_where
+      description: State of the kennel.
+    - name: zip_code_howl
+      description: Kennel zip cod
+- name: stg_org_chart_DogTricks
+  description: Tricks that dogs know, and their skill levels.
+  columns:
+    - name: dog_id
+      description: ID of the dog performing the trick.
+      data_tests:
+        - relationships:
+            to: source('org_chart', 'Dogs')
+            field: dog_id
+    - name: trick_id
+      description: ID of the trick.
+    - name: proficiency_level
+      description: How well the dog performs the trick.
+    - name: last_practiced
+      description: Date the trick was last practice
+- name: stg_org_chart_BoneRatings
+  description: Performance ratings given to dogs.
+  columns:
+    - name: rating_id
+      description: Unique identifier for each rating.
+      data_tests: 
+        - unique
+        - not_null
+    - name: dog_id
+      data_tests:
+        - relationships:
+            to: source('org_chart', 'Dogs')
+            field: dog_id
+      description: ID of the dog being rated.
+    - name: rater_dog_id
+      description: ID of the dog giving the rating.
+      data_tests:
+        - relationships:
+            to: source('org_chart', 'Dogs')
+            field: dog_id
+    - name: rating_date
+      description: Date of the rating.
+    - name: overall_paw_rating
+      description: Overall performance rating (number of paws).
+    - name: tail_wags
+      description: Additional comments.
+    - name: treat_goals
+      description: Goals for improvement.
+    - name: rating_status
+      description: Status of the ratin
+- name: stg_org_chart_WalkHistory
+  description: History of dog walks, their leaders and sniffing spots.
+  columns:
+    - name: walk_id
+      description: Unique identifier for each walk record.
+      data_tests: 
+        - unique
+        - not_null
+    - name: dog_id
+      description: ID of the dog who went for a walk.
+      data_tests:
+        - relationships:
+            to: source('org_chart', 'Dogs')
+            field: dog_id
+    - name: walk_date
+      description: Date of the walk.
+    - name: walk_leader
+      description: Who led the walk.
+    - name: sniff_spots
+      description: Interesting places sniffed.
+    - name: potty_breaks
+      description: Number of potty breaks.
+    - name: reason_for
+      description: Reason for the wal
+- name: stg_org_chart_DogToysOwned
+  description: Toys owned by each dog.
+  columns:
+    - name: dog_id
+      description: ID of the dog who owns the toy.
+      data_tests:
+        - relationships:
+            to: source('org_chart', 'Dogs')
+            field: dog_id
+    - name: toy_id
+      description: ID of the toy.
+    - name: acquired_date
+      description: Date the dog acquired the toy.
+    - name: favorite_status
+      description: Is this the dog's favorite to
+- name: stg_org_chart_DogTrainingEnrollment
+  description: Training class enrollment history of each dog.
+  columns:
+    - name: dog_id
+      description: ID of the dog enrolled in the class.
+      data_tests:
+        - relationships:
+            to: source('org_chart', 'Dogs')
+            field: dog_id
+    - name: class_id
+      description: ID of the training class.
+    - name: completion_date
+      description: Date the dog completed the class.
+    - name: enrollment_status
+      description: Status of enrollment.
+    - name: notes_from_trainer
+      description: Notes from the trainer.
