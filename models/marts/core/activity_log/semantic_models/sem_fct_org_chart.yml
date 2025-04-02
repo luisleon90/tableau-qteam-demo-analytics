@@ -1,0 +1,67 @@
+semantic_models:
+- name: org_chart
+  description: Organizational chart fact table detailing the structure and attributes
+    of the organization.
+  model: ref('fct_org_chart')
+  defaults:
+    agg_time_dimension: adoption_date
+  
+  entities:
+  - name: employee
+    type: primary
+    expr: employee_id
+  - name: kennel
+    type: foreign
+    expr: kennel_id
+  - name: pack
+    type: foreign
+    expr: pack_id
+
+  dimensions:
+  - name: bark_name
+    type: categorical
+  - name: breed_title
+    type: categorical
+  - name: pack_department
+    type: categorical
+  - name: email_sniff
+    type: categorical
+  - name: phone_howl
+    type: categorical
+  - name: adoption_date
+    type: time
+    type_params:
+      time_granularity: day
+  - name: departure_date
+    type: time
+    type_params:
+      time_granularity: day
+  - name: created_at
+    type: time
+    type_params:
+      time_granularity: day
+  - name: updated_at
+    type: time
+    type_params:
+      time_granularity: day
+
+  measures:
+  - name: count_dog
+    agg: count
+    create_metric: true
+    expr: dog_id
+
+  - name: count_top_dog
+    agg: count_distinct
+    create_metric: true
+    expr: top_dog_id
+
+  - name: count_kennel
+    agg: count_distinct
+    create_metric: true
+    expr: kennel_id
+
+  - name: count_pack
+    agg: count_distinct
+    create_metric: true
+    expr: pack_id

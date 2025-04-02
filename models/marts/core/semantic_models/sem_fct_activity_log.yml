@@ -14,21 +14,15 @@ semantic_models:
   - name: actor
     type: foreign
     expr: actor_id
-  - name: employee
-    type: foreign
-    expr: employee_id
-  - name: department
-    type: foreign
-    expr: department_id
-  - name: boss_employee
-    type: foreign
-    expr: boss_employee_id
   - name: view
     type: foreign
     expr: view_id
   - name: workbook
     type: foreign
     expr: workbook_id
+  - name: employee
+    type: foreign
+    expr: emplyoee_id
 
   dimensions:
   - name: tableau_endpoint_name
@@ -112,21 +106,6 @@ semantic_models:
     agg: count_distinct
     create_metric: true
     expr: actor_id
-  
-  - name: count_employee
-    agg: count_distinct
-    create_metric: true
-    expr: employee_id
-  
-  - name: count_department
-    agg: count_distinct
-    create_metric: true
-    expr: department_id
-  
-  - name: count_boss_employee
-    agg: count_distinct
-    create_metric: true
-    expr: boss_employee_id
   
   - name: count_view
     agg: count_distinct

@@ -1,0 +1,101 @@
+dog_id,bark_name,breed_title,pack_department,top_dog_id,email_sniff,phone_howl,adoption_date,departure_date,kennel_id,pack_id,created_at,updated_at
+1,Droolius Caesar Jr.,German Shepherd,Nap Compliance,26,droolius_caesar_jr@barkmail.com,(394)916-4001x01204,2025-12-09,,3,5,2022-01-03 05:20:37,2021-12-05 02:41:33
+2,Sir Waggington III,Rottweiler,Tailgineering,96,sir_waggington_iii@barkmail.com,(093)827-0547,2021-11-22,,1,4,2024-02-24 07:42:30,2024-11-17 15:20:37
+3,Winnie the Pooch the Brave,Australian Shepherd,Howl-istics,97,winnie_the_pooch_the_brave@barkmail.com,856.957.1391,2020-11-05,2020-07-12,1,10,2024-02-05 00:10:22,2024-11-08 18:43:46
+4,Arf Vader Jr.,Golden Retriever,Fur-nance,40,arf_vader_jr@barkmail.com,034.165.8649x519,2022-12-28,2020-10-21,2,7,2022-10-21 20:45:49,2020-05-15 04:35:40
+5,Bilbo Waggins Sr.,Siberian Husky,Zoomie Coordination,40,bilbo_waggins_sr@barkmail.com,+1-890-137-0693,2024-09-26,,5,4,2024-06-02 05:28:21,2020-02-10 00:20:26
+6,Lady Puppington the Brave,Doberman Pinscher,Barketing,4,lady_puppington_the_brave@barkmail.com,450.510.5283,2024-06-01,,5,2,2025-01-14 16:21:46,2024-08-26 22:36:39
+7,Howlington Cooper Sr.,Bulldog,SniffOps,29,howlington_cooper_sr@barkmail.com,403-839-7187x48549,2022-05-25,,3,2,2021-07-28 15:31:24,2024-04-05 05:41:04
+8,Droolius Caesar Jr.,Doberman Pinscher,Pupper Resources,63,droolius_caesar_jr@barkmail.com,+1-307-567-2781x358,2025-05-28,2020-02-27,2,2,2022-10-04 22:56:24,2024-09-29 13:55:28
+9,Howlington Cooper III,Poodle,Treat Procurement,82,howlington_cooper_iii@barkmail.com,596-588-1884x25372,2023-08-03,2024-03-09,2,7,2022-01-10 08:08:51,2023-01-03 18:14:56
+10,Bark Twain III,Doberman Pinscher,Treat Procurement,23,bark_twain_iii@barkmail.com,+1-412-514-8007x1058,2025-09-04,,4,4,2024-02-03 15:21:42,2024-08-13 02:45:22
+11,Paw McCartney Jr.,Boston Terrier,Howl-istics,98,paw_mccartney_jr@barkmail.com,6884073180,2022-08-01,,4,5,2020-06-23 19:25:54,2021-03-23 16:36:26
+12,Howlington Cooper Sr.,Chihuahua,Zoomie Coordination,31,howlington_cooper_sr@barkmail.com,552.826.0719,2022-03-30,,1,1,2022-11-08 19:47:27,2024-09-04 01:32:27
+13,Muttlock Holmes the Brave,Shih Tzu,Pupper Resources,45,muttlock_holmes_the_brave@barkmail.com,950.242.8339x623,2025-11-20,,3,2,2024-10-24 19:21:23,2023-11-07 05:07:42
+14,Paw Revere the Brave,Dachshund,Treat Procurement,81,paw_revere_the_brave@barkmail.com,970-256-1196x57895,2021-01-30,,1,6,2025-02-08 05:36:20,2023-07-16 13:20:28
+15,Captain Sniffer III,Poodle,Fur-nance,7,captain_sniffer_iii@barkmail.com,507-548-2416,2020-05-07,,1,9,2020-06-16 10:14:43,2024-09-17 09:59:59
+16,Bark Obama Sr.,Shih Tzu,Fur-nance,8,bark_obama_sr@barkmail.com,819-213-2396,2023-06-22,,2,4,2020-03-29 13:39:14,2024-09-21 03:03:43
+17,Bilbo Waggins Jr.,Chihuahua,Zoomie Coordination,83,bilbo_waggins_jr@barkmail.com,407-037-7012x8596,2022-10-06,,1,10,2022-10-26 11:18:20,2024-06-21 21:45:50
+18,Furcules Sr.,Boxer,Fur-nance,58,furcules_sr@barkmail.com,298-055-4242x852,2020-12-13,2021-10-27,1,1,2020-02-18 14:40:20,2021-11-04 21:29:44
+19,Captain Sniffer Sr.,Border Collie,Pupper Resources,41,captain_sniffer_sr@barkmail.com,707.246.0986,2022-10-15,,4,7,2024-03-16 21:59:44,2021-04-26 06:26:33
+20,Howlington Cooper the Brave,Bulldog,Nap Compliance,69,howlington_cooper_the_brave@barkmail.com,261-136-4247,2024-10-25,,4,1,2024-07-18 09:11:25,2023-05-25 04:00:09
+21,Howlington Cooper Sr.,Shih Tzu,Fur-nance,49,howlington_cooper_sr@barkmail.com,001-263-468-3017x5366,2022-10-24,,4,3,2024-08-04 08:29:09,2023-08-11 11:11:51
+22,Hairy Pawter Jr.,German Shepherd,SniffOps,6,hairy_pawter_jr@barkmail.com,1583835737,2023-06-01,2025-02-28,2,2,2023-08-14 03:15:20,2020-01-16 04:49:53
+23,Droolius Caesar III,Great Dane,SniffOps,6,droolius_caesar_iii@barkmail.com,355-673-8281,2021-09-12,,3,3,2024-04-15 03:15:19,2021-12-10 23:13:31
+24,Muttlock Holmes Jr.,Golden Retriever,Pupper Resources,67,muttlock_holmes_jr@barkmail.com,+1-664-957-8834x55315,2020-09-09,,4,2,2024-05-26 16:41:07,2023-07-26 12:22:29
+25,Sherdog Holmes III,Chihuahua,Tailgineering,3,sherdog_holmes_iii@barkmail.com,+1-214-310-6859x628,2021-06-27,,1,8,2022-07-06 02:18:16,2020-02-20 07:12:45
+26,Droolius Caesar III,Cocker Spaniel,Treat Procurement,24,droolius_caesar_iii@barkmail.com,(403)870-6183,2022-12-30,,5,6,2020-02-22 10:33:58,2024-04-20 05:21:11
+27,Paw Revere the Brave,Dachshund,Pupper Resources,71,paw_revere_the_brave@barkmail.com,673.252.2526,2021-05-24,,2,4,2020-08-11 14:20:35,2021-12-01 18:52:39
+28,Doge Vader Jr.,Doberman Pinscher,Nap Compliance,10,doge_vader_jr@barkmail.com,001-855-562-7627x529,2024-09-18,,3,10,2024-09-18 10:23:49,2022-01-23 09:54:08
+29,Indiana Bones Jr.,Basset Hound,Howl-istics,31,indiana_bones_jr@barkmail.com,0743109773,2025-02-14,,3,3,2020-09-19 00:26:23,2022-10-28 06:45:31
+30,Elon Muzzle Jr.,Australian Shepherd,Howl-istics,63,elon_muzzle_jr@barkmail.com,929.348.0608,2025-10-09,,5,5,2025-02-19 18:24:44,2024-02-27 14:35:25
+31,Chewbarka Jr.,Cocker Spaniel,Pupper Resources,87,chewbarka_jr@barkmail.com,+1-876-315-9539x3871,2025-08-02,,2,2,2023-08-16 05:04:00,2021-01-12 06:40:54
+32,Elon Muzzle the Brave,Great Dane,Zoomie Coordination,71,elon_muzzle_the_brave@barkmail.com,028-858-7672,2020-04-20,,2,7,2020-02-24 05:30:04,2024-08-31 17:22:32
+33,Hairy Pawter III,Cocker Spaniel,Pawduct Management,71,hairy_pawter_iii@barkmail.com,494-728-2995,2022-09-09,,4,6,2024-06-22 15:36:26,2025-01-24 01:53:50
+34,Woof Blitzer Jr.,Border Collie,Pawduct Management,65,woof_blitzer_jr@barkmail.com,+1-486-875-7897x27691,2020-07-13,,5,5,2022-04-25 17:54:19,2024-05-18 07:54:27
+35,Howlington Cooper Sr.,Border Collie,SniffOps,31,howlington_cooper_sr@barkmail.com,(929)033-2387x85239,2023-07-19,,5,6,2020-03-19 12:10:37,2021-05-01 21:33:04
+36,Paw McCartney Jr.,Yorkshire Terrier,Treat Procurement,8,paw_mccartney_jr@barkmail.com,001-665-386-9135x49860,2025-11-20,,3,10,2020-02-14 11:50:38,2024-07-22 00:31:19
+37,Howlington Cooper Sr.,Golden Retriever,Nap Compliance,29,howlington_cooper_sr@barkmail.com,075.452.6468,2024-06-03,2022-10-23,3,9,2021-11-16 16:23:29,2022-04-02 03:01:33
+38,Sir Waggington Sr.,Great Dane,Barketing,57,sir_waggington_sr@barkmail.com,(269)073-4942,2024-08-20,,1,2,2020-05-12 23:02:01,2024-02-13 19:45:22
+39,Captain Sniffer the Brave,Yorkshire Terrier,Tailgineering,2,captain_sniffer_the_brave@barkmail.com,163.164.3489,2025-09-02,,4,4,2022-10-19 17:13:53,2024-03-06 12:07:20
+40,Winnie the Pooch Jr.,Yorkshire Terrier,Pawduct Management,17,winnie_the_pooch_jr@barkmail.com,620.789.6172x88266,2020-01-27,,5,4,2020-03-18 22:31:39,2022-10-07 22:52:42
+41,Hairy Pawter Sr.,Dachshund,Barketing,97,hairy_pawter_sr@barkmail.com,8045551345,2023-05-14,,3,7,2022-03-27 18:28:21,2022-06-18 05:00:03
+42,Winnie the Pooch III,Boxer,Fur-nance,6,winnie_the_pooch_iii@barkmail.com,229-324-7672x050,2025-06-22,,1,7,2024-03-11 01:13:06,2023-09-01 23:41:39
+43,Droolius Caesar the Brave,Shih Tzu,Fur-nance,22,droolius_caesar_the_brave@barkmail.com,139-024-0389x01020,2025-06-09,,3,3,2025-03-10 11:42:21,2022-12-14 18:07:37
+44,Sherdog Holmes Jr.,Shih Tzu,Howl-istics,58,sherdog_holmes_jr@barkmail.com,922.443.5819x5059,2021-01-28,,3,10,2023-06-27 03:12:44,2021-01-23 17:07:17
+45,Arf Vader Jr.,Boxer,Nap Compliance,31,arf_vader_jr@barkmail.com,054-472-2847,2024-09-04,,2,2,2022-03-16 02:13:47,2024-10-21 05:20:18
+46,Howlington Cooper the Brave,Dachshund,Fur-nance,61,howlington_cooper_the_brave@barkmail.com,001-117-542-4514x5560,2020-10-26,,5,4,2020-03-29 09:15:06,2023-12-07 04:30:29
+47,Muttlock Holmes III,Beagle,Barketing,13,muttlock_holmes_iii@barkmail.com,(296)040-6536,2024-02-26,,4,4,2024-02-14 12:21:38,2022-10-14 14:21:25
+48,Snoop Doggo Jr.,Golden Retriever,Fur-nance,86,snoop_doggo_jr@barkmail.com,327-356-0036x735,2021-11-07,,3,5,2022-05-21 22:47:20,2022-10-26 03:35:11
+49,Paw Revere III,Yorkshire Terrier,SniffOps,92,paw_revere_iii@barkmail.com,+1-354-946-4218x6064,2025-08-24,,1,7,2023-09-12 22:10:39,2020-12-16 08:53:23
+50,Sir Waggington Jr.,Beagle,Zoomie Coordination,94,sir_waggington_jr@barkmail.com,118.932.5959x99067,2023-02-10,,1,5,2024-06-22 22:33:34,2024-03-30 14:55:02
+51,Bark Obama III,Boston Terrier,Pawduct Management,41,bark_obama_iii@barkmail.com,001-127-038-3827x5149,2022-06-08,,4,7,2024-03-18 10:07:42,2021-01-29 04:55:33
+52,Winnie the Pooch Jr.,Cocker Spaniel,Barketing,87,winnie_the_pooch_jr@barkmail.com,+1-271-991-8887x28588,2020-01-29,2023-06-24,1,1,2024-03-20 23:31:42,2021-03-25 17:24:01
+53,Doge Vader III,Rottweiler,Nap Compliance,69,doge_vader_iii@barkmail.com,986-125-7367x80902,2024-01-19,,2,1,2023-06-15 18:15:47,2022-07-08 08:52:26
+54,Bilbo Waggins Sr.,Chihuahua,Pupper Resources,56,bilbo_waggins_sr@barkmail.com,+1-628-962-6143x2372,2023-03-28,,1,7,2023-06-26 19:58:41,2025-01-24 22:42:02
+55,Arf Vader Sr.,Chihuahua,Pupper Resources,83,arf_vader_sr@barkmail.com,303.040.8058x3783,2020-04-09,,3,7,2024-04-08 01:51:01,2022-08-01 16:30:27
+56,Paw McCartney Jr.,Cocker Spaniel,Nap Compliance,74,paw_mccartney_jr@barkmail.com,001-154-332-1659x744,2020-03-22,,1,5,2024-08-15 01:42:00,2023-05-25 00:04:53
+57,Lady Puppington Jr.,Cocker Spaniel,Barketing,57,lady_puppington_jr@barkmail.com,(090)891-6570,2023-03-22,,5,1,2021-11-09 05:55:59,2021-06-15 07:58:03
+58,Paw Revere Jr.,Labrador Retriever,Howl-istics,98,paw_revere_jr@barkmail.com,(462)370-1284x79574,2025-02-20,,3,7,2022-08-26 18:40:10,2021-09-13 07:18:12
+59,Paw McCartney the Brave,Boston Terrier,Tailgineering,73,paw_mccartney_the_brave@barkmail.com,399-866-5462,2020-06-04,,4,2,2024-01-13 12:19:05,2021-09-25 22:02:59
+60,Mary Puppins the Brave,Chihuahua,Howl-istics,31,mary_puppins_the_brave@barkmail.com,(764)343-0205x68238,2022-01-01,,1,1,2023-01-13 11:36:34,2023-07-27 10:53:22
+61,Dogtor Strange III,Cocker Spaniel,Fur-nance,32,dogtor_strange_iii@barkmail.com,+1-630-113-1064x9922,2022-05-01,,3,2,2023-01-15 00:01:54,2022-10-16 23:25:35
+62,Furcules Jr.,Labrador Retriever,Barketing,9,furcules_jr@barkmail.com,001-293-579-8757x52435,2024-06-28,,1,10,2025-01-22 03:52:14,2021-04-15 20:23:35
+63,Doge Vader Sr.,Golden Retriever,Treat Procurement,35,doge_vader_sr@barkmail.com,073.296.1809x11458,2022-03-01,,5,1,2021-06-27 05:18:50,2025-03-15 14:00:01
+64,Sherdog Holmes Jr.,Boston Terrier,Treat Procurement,94,sherdog_holmes_jr@barkmail.com,(816)192-8743x591,2023-12-11,,4,5,2024-11-02 23:47:54,2020-04-25 10:20:53
+65,Bilbo Waggins III,Bulldog,SniffOps,49,bilbo_waggins_iii@barkmail.com,001-601-797-2614,2022-06-09,,2,1,2022-12-21 02:15:39,2020-02-11 06:13:59
+66,Chewbarka the Brave,Yorkshire Terrier,Treat Procurement,62,chewbarka_the_brave@barkmail.com,+1-402-585-4973x979,2020-12-22,,5,1,2021-12-01 11:13:02,2024-09-16 19:37:07
+67,Paw McCartney Jr.,Basset Hound,SniffOps,51,paw_mccartney_jr@barkmail.com,711.437.5319,2021-10-17,2022-01-22,3,7,2020-06-24 07:08:38,2025-02-01 17:43:33
+68,Sherdog Holmes the Brave,German Shepherd,Treat Procurement,85,sherdog_holmes_the_brave@barkmail.com,725-893-7253x13672,2025-07-03,,2,9,2020-12-30 18:46:18,2020-03-30 17:23:18
+69,Indiana Bones Sr.,Chihuahua,Tailgineering,24,indiana_bones_sr@barkmail.com,400.323.9533x7478,2023-06-24,,2,10,2024-11-29 07:38:49,2020-01-23 19:06:18
+70,Furcules the Brave,Yorkshire Terrier,Howl-istics,37,furcules_the_brave@barkmail.com,001-634-361-2165x10026,2021-01-09,,4,9,2020-03-22 16:10:53,2023-04-07 10:15:20
+71,Sherdog Holmes Sr.,Beagle,Barketing,91,sherdog_holmes_sr@barkmail.com,638-711-8215x3945,2023-11-09,2020-03-10,1,3,2022-12-06 09:42:44,2024-08-15 12:44:27
+72,Furcules Jr.,Shih Tzu,Pupper Resources,38,furcules_jr@barkmail.com,062.472.6419,2025-11-13,2025-08-07,5,8,2021-04-15 09:58:04,2023-09-16 07:49:53
+73,Lady Puppington Sr.,Basset Hound,SniffOps,78,lady_puppington_sr@barkmail.com,001-422-260-6491,2022-11-11,,4,2,2023-01-25 02:58:59,2022-01-10 16:18:50
+74,Doge Vader Jr.,Dachshund,Pawduct Management,34,doge_vader_jr@barkmail.com,(588)042-0808x5497,2021-06-04,,1,2,2024-07-21 05:37:14,2023-10-18 15:52:44
+75,Bark Obama Jr.,Beagle,Howl-istics,1,bark_obama_jr@barkmail.com,018.489.9047x7230,2023-10-21,,5,10,2024-09-07 17:32:03,2024-06-30 17:48:58
+76,Indiana Bones Sr.,Rottweiler,Zoomie Coordination,28,indiana_bones_sr@barkmail.com,057.211.2620x6632,2022-05-01,,2,1,2022-07-01 00:58:12,2020-10-17 02:45:36
+77,Hairy Pawter the Brave,Boxer,Howl-istics,29,hairy_pawter_the_brave@barkmail.com,(210)292-9438x243,2020-07-24,,5,7,2023-04-20 20:58:21,2020-03-28 06:01:36
+78,Bark Obama III,Boston Terrier,Treat Procurement,30,bark_obama_iii@barkmail.com,0619853308,2022-09-10,,1,4,2023-11-28 15:43:24,2023-07-30 07:07:54
+79,Indiana Bones Jr.,Basset Hound,Zoomie Coordination,60,indiana_bones_jr@barkmail.com,4159513598,2023-12-31,,4,4,2023-10-24 14:37:29,2021-05-27 02:40:41
+80,Bark Twain the Brave,Australian Shepherd,SniffOps,1,bark_twain_the_brave@barkmail.com,445.709.8455,2024-07-03,,2,4,2024-02-18 18:59:20,2023-09-22 03:34:52
+81,Howlington Cooper Jr.,Dachshund,Pawduct Management,12,howlington_cooper_jr@barkmail.com,+1-306-902-4970,2022-02-02,,2,1,2020-03-23 04:38:09,2023-02-21 09:56:01
+82,Bark Twain Sr.,Boxer,Pawduct Management,51,bark_twain_sr@barkmail.com,811-370-0963x5676,2024-10-09,,3,2,2024-04-20 06:35:01,2024-05-10 15:28:11
+83,Captain Sniffer Jr.,Beagle,Barketing,42,captain_sniffer_jr@barkmail.com,+1-172-888-1084x0715,2020-09-11,,2,2,2021-01-12 13:25:49,2024-04-20 02:10:58
+84,Captain Sniffer the Brave,Boxer,Howl-istics,9,captain_sniffer_the_brave@barkmail.com,203-021-8796,2022-05-22,,5,4,2023-08-03 06:10:07,2022-06-12 16:14:48
+85,Chewbarka Sr.,Yorkshire Terrier,Tailgineering,64,chewbarka_sr@barkmail.com,258.939.9377x830,2021-08-23,,1,4,2020-03-14 03:02:11,2023-11-28 22:20:27
+86,Hairy Pawter Sr.,Chihuahua,SniffOps,2,hairy_pawter_sr@barkmail.com,8036020245,2020-10-08,,3,8,2024-12-20 23:35:32,2022-03-04 17:29:36
+87,Howlington Cooper Jr.,Shih Tzu,Tailgineering,92,howlington_cooper_jr@barkmail.com,075.799.3855,2024-01-23,,4,6,2024-07-11 17:15:13,2023-08-07 14:55:22
+88,Elon Muzzle Sr.,Rottweiler,Zoomie Coordination,47,elon_muzzle_sr@barkmail.com,529-107-0513x229,2020-03-26,,4,9,2023-02-24 05:30:24,2020-02-03 00:06:25
+89,Bilbo Waggins Jr.,Yorkshire Terrier,SniffOps,58,bilbo_waggins_jr@barkmail.com,001-181-542-9440,2020-05-06,,1,6,2022-08-09 10:09:07,2020-10-05 02:29:57
+90,Elon Muzzle Jr.,Labrador Retriever,SniffOps,85,elon_muzzle_jr@barkmail.com,(675)228-8263x318,2022-07-30,,2,6,2022-11-02 18:46:54,2022-09-14 12:16:47
+91,Chewbarka Jr.,Border Collie,Zoomie Coordination,64,chewbarka_jr@barkmail.com,001-927-841-2902,2021-08-11,,5,10,2023-07-20 03:13:21,2023-12-31 18:08:54
+92,Elon Muzzle the Brave,Beagle,Pupper Resources,7,elon_muzzle_the_brave@barkmail.com,732-995-8038x6870,2020-12-07,,1,1,2020-06-22 02:46:59,2021-04-22 09:20:14
+93,Doge Vader the Brave,Boxer,Tailgineering,36,doge_vader_the_brave@barkmail.com,001-901-300-5307x083,2023-03-12,,4,7,2020-06-02 05:40:46,2023-06-16 08:37:20
+94,Captain Sniffer Jr.,Basset Hound,Pupper Resources,73,captain_sniffer_jr@barkmail.com,254-370-0994x756,2022-06-28,,2,7,2022-07-23 21:10:04,2024-02-23 00:23:12
+95,Captain Sniffer the Brave,Great Dane,SniffOps,87,captain_sniffer_the_brave@barkmail.com,(540)105-7723x11246,2024-03-06,2022-01-24,2,7,2021-04-11 18:04:07,2021-01-15 07:08:32
+96,Winnie the Pooch the Brave,Yorkshire Terrier,Barketing,35,winnie_the_pooch_the_brave@barkmail.com,001-018-748-9943x122,2021-01-03,,4,10,2022-05-12 14:32:05,2021-01-15 09:28:44
+97,Droolius Caesar Jr.,Boxer,Howl-istics,26,droolius_caesar_jr@barkmail.com,+1-021-919-8487x602,2024-10-03,,4,8,2024-02-29 21:01:34,2021-10-12 18:29:45
+98,Doge Vader the Brave,Yorkshire Terrier,Zoomie Coordination,23,doge_vader_the_brave@barkmail.com,937.699.6439,2022-05-29,,1,7,2022-11-10 05:26:22,2021-01-09 03:16:48
+99,Captain Sniffer Sr.,Golden Retriever,Tailgineering,77,captain_sniffer_sr@barkmail.com,001-806-625-1313x5622,2021-06-30,,4,6,2021-09-26 21:31:57,2020-02-20 18:46:16
+100,Dogtor Strange Sr.,Border Collie,Nap Compliance,72,dogtor_strange_sr@barkmail.com,170-517-1681,2022-09-03,,1,3,2025-02-11 18:55:16,2024-05-07 13:56:16
