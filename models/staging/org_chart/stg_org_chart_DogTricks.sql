@@ -9,6 +9,7 @@ source as (
 renamed as (
 
     select
+        performance_id,
         dog_id as employee_id,
         trick_id,
         proficiency_level,

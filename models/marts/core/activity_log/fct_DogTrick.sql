@@ -15,6 +15,7 @@ tricks as (
 renamed as (
 
     select
+        source.performance_id,
         source.employee_id,
         source.trick_id,
         source.proficiency_level,
