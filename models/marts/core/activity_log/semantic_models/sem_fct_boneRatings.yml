@@ -45,3 +45,9 @@ semantic_models:
     description: The number of treat goals achieved during the rating.
     agg: sum
     create_metric: true
+
+  - name: trick_count
+    description: The number of times a trick as been performed.
+    agg: count
+    create_metric: true
+    expr: trick_id
