@@ -23,6 +23,8 @@ semantic_models:
     type: categorical
   - name: notes_from_trainer
     type: categorical
+  - name: class_name
+    type: categorical
 
   measures:
   - name: count_class
