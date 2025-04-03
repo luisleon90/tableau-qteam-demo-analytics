@@ -8,3 +8,21 @@ metrics:
     label: Page Visit Duration (Secs)
     type_params:
       measure: page_visit_duration
+
+saved_queries:
+  - name: dogs_by_pack_department
+    description: Number of Dogs in each Pack Department
+    config:
+      cache:
+        enabled: true
+    query_params:
+      metrics:
+        - count_dog
+
+      group_by:
+        - Dimension('org_chart__pack_department')
+    exports:
+      - name: dogs_by_department
+        config:
+          export_as: table
+          schema: aa_metrics
