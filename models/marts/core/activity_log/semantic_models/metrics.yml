@@ -71,3 +71,45 @@ saved_queries:
         config:
           export_as: table
           schema: aa_metrics
+
+  - name: most_pawpular_trick_per_pack
+    description: The most commonly known tricks per pack
+    config:
+      cache:
+        enabled: true
+    query_params:
+      metrics:
+        - trick_count
+
+      group_by:
+        - Dimension('rating_id__trick_description')
+        - Dimension('pack_id__pack_name',['employee_id'])
+
+
+    exports:
+      - name: most_pawpular_trick_per_pack
+        config:
+          export_as: table
+          schema: aa_metrics
+
+  - name: total_toys_owned_per_region
+    description: The regions which own the most toys
+    config:
+      cache:
+        enabled: true
+    query_params:
+      metrics:
+        - total_toys_owned
+
+      group_by:
+        - Dimension('kennel_id__kennel_name',['employee_id'])
+        - Dimension('kennel_id__state_where',['employee_id'])
+        - Dimension('kennel_id__city_where',['employee_id'])
+        - Dimension('kennel_id__zip_code_howl',['employee_id'])
+
+
+    exports:
+      - name: total_toys_owned_per_region
+        config:
+          export_as: table
+          schema: aa_metrics
