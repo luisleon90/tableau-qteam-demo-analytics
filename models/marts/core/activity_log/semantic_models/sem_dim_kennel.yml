@@ -4,9 +4,8 @@ semantic_models:
     location and identity.
   model: ref('dim_kennel')
   entities:
-  - name: kennel
+  - name: kennel_id
     type: primary
-    expr: kennel_id
 
   dimensions:
   - name: name
