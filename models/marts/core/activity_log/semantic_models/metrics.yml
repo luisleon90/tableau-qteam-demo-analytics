@@ -21,7 +21,6 @@ saved_queries:
 
       group_by:
         - Dimension('employee_id__pack_department')
-        - TimeDimension('metric_time', 'day')
     exports:
       - name: dogs_by_department
         config:

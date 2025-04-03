@@ -2,7 +2,7 @@ semantic_models:
 - name: dog_toys_owned
   description: Fact table representing the dog toys owned by employees, including
     acquisition details and favorite status.
-  model: ref('fct_DotToysOwned')
+  model: ref('fct_DogToysOwned')
   defaults:
     agg_time_dimension: acquired_date
 
@@ -17,6 +17,9 @@ semantic_models:
     type: time
     type_params:
       time_granularity: day
+  - name: toy_name
+    expr: toy_name
+    type: categorical
   - name: is_favorite
     expr: favorite_status
     type: categorical

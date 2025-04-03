@@ -87,6 +87,10 @@ sources:
                   to: source('org_chart', 'Dogs')
                   field: dog_id
           - name: trick_id
+            data_tests:
+              - relationships:
+                  to: source('org_chart', 'tricks')
+                  field: trick_id
             description: ID of the trick.
           - name: proficiency_level
             description: How well the dog performs the trick.
@@ -160,6 +164,10 @@ sources:
                   field: dog_id
           - name: toy_id
             description: ID of the toy.
+            data_tests:
+              - relationships:
+                  to: source('org_chart', 'toys')
+                  field: toy_id
           - name: acquired_date
             description: Date the dog acquired the toy.
           - name: favorite_status
@@ -176,9 +184,64 @@ sources:
                   field: dog_id
           - name: class_id
             description: ID of the training class.
+            data_tests:
+              - relationships:
+                  to: source('org_chart', 'trainingclasses')
+                  field: class_id
           - name: completion_date
             description: Date the dog completed the class.
           - name: enrollment_status
             description: Status of enrollment.
           - name: notes_from_trainer
             description: Notes from the trainer.
+
+      - name: toys
+        description: Master list of toys available to dog employees.
+        columns:
+          - name: toy_id
+            data_tests: 
+              - unique
+              - not_null
+            description: Unique identifier for each toy.
+          - name: toy_name
+            description: Name of the toy.
+          - name: toy_description
+            description: Description of the toy.
+
+      - name: trainingclasses
+        description: Catalog of training classes offered to dog employees.
+        columns:
+          - name: class_id
+            data_tests: 
+              - unique
+              - not_null
+            description: Unique identifier for the training class.
+          - name: class_name
+            description: Name of the training class.
+          - name: class_description
+            description: Description of the class and its objectives.
+
+      - name: treattypes
+        description: Catalog of treat types available as rewards or incentives.
+        columns:
+          - name: treat_id
+            data_tests: 
+              - unique
+              - not_null
+            description: Unique identifier for each treat type.
+          - name: treat_name
+            description: Name of the treat.
+          - name: treat_description
+            description: Description of the treat.
+
+      - name: tricks
+        description: List of all registered tricks in the training program.
+        columns:
+          - name: trick_id
+            data_tests: 
+              - unique
+              - not_null
+            description: Unique identifier for each trick.
+          - name: trick_description
+            description: Description of the trick.
+
