@@ -1,0 +1,17 @@
+semantic_models:
+- name: pack
+  description: A dimension table for packs, containing information about pack identifiers,
+    names, and howls.
+  model: ref('dim_pack')
+  entities:
+  - name: pack_id
+    type: primary
+
+  dimensions:
+  - name: name
+    expr: pack_name
+    type: categorical
+
+  - name: howl
+    expr: pack_howl
+    type: categorical
