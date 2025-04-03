@@ -1,0 +1,34 @@
+semantic_models:
+- name: dog_trick
+  description: Fact table for dog tricks performed by employees, including proficiency
+    level and last practiced date.
+  model: ref('fct_DogTrick')
+  defaults:
+    agg_time_dimension: last_practiced_date
+
+  entities:
+  - name: employee_id
+    type: foreign
+  - name: trick_id
+    type: foreign
+
+  dimensions:
+  - name: proficiency_level
+    type: categorical
+  - name: last_practiced_date
+    type: time
+    type_params:
+      time_granularity: day
+
+  measures:
+  - name: count_tricks
+    description: The total number of tricks performed.
+    agg: count
+    create_metric: true
+    expr: trick_id
+
+  - name: count_trick
+    agg: count_distinct
+    create_metric: true
+    expr: trick_id
+  primary_entity: employee_id

@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from {{ source('org_chart', 'WalkHistory') }}
+    select * from {{ ref('stg_org_chart_WalkHistory') }}
 
 ),
 
@@ -10,7 +10,7 @@ renamed as (
 
     select
         walk_id,
-        dog_id as employee_id,
+        employee_id,
         walk_date,
         walk_leader,
         sniff_spots,

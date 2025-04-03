@@ -1,0 +1,42 @@
+semantic_models:
+- name: bone_ratings
+  description: Fact table containing ratings of bones by dogs. Each row represents
+    a unique rating event.
+  model: ref('fct_boneRatings')
+
+  defaults:
+    agg_time_dimension: date
+
+  entities:
+  - name: rating_id
+    type: primary
+  - name: employee_id
+    type: foreign
+  - name: rater_dog_id
+    type: foreign
+
+  dimensions:
+  - name: date
+    expr: rating_date
+    type: time
+    type_params:
+      time_granularity: day
+  - name: status
+    expr: rating_status
+    type: categorical
+
+  measures:
+  - name: overall_paw_rating
+    description: The overall paw rating given by the rater dog.
+    agg: average
+    create_metric: true
+
+  - name: tail_wags
+    description: The number of tail wags recorded during the rating.
+    agg: sum
+    create_metric: true
+
+  - name: treat_goals
+    description: The number of treat goals achieved during the rating.
+    agg: sum
+    create_metric: true

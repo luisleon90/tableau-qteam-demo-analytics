@@ -1,0 +1,39 @@
+semantic_models:
+- name: walk_history
+  description: Walk history fact table at the walk level. This table contains one
+    row per walk and includes details about the walk.
+  model: ref('fct_WalkHistory')
+  defaults:
+    agg_time_dimension: date
+
+  entities:
+  - name: walk_id
+    type: primary
+  - name: employee_id
+    type: foreign
+
+  dimensions:
+  - name: date
+    expr: walk_date
+    type: time
+    type_params:
+      time_granularity: day
+  - name: leader
+    expr: walk_leader
+    type: categorical
+  - name: sniff_spots
+    type: categorical
+  - name: reason_for
+    type: categorical
+
+  measures:
+  - name: total_potty_breaks
+    description: The total number of potty breaks during the walk.
+    agg: sum
+    create_metric: true
+    expr: potty_breaks
+
+  - name: count_walk
+    agg: count
+    create_metric: true
+    expr: walk_id
