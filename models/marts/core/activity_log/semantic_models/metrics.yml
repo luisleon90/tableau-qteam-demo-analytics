@@ -46,7 +46,28 @@ saved_queries:
 
 
     exports:
-      - name: dogs_by_department
+      - name: interactions_by_breed_per_site
+        config:
+          export_as: table
+          schema: aa_metrics
+
+  - name: average_pawformance_rating_by_pack
+    description: Trick Performance as rated by fellow pawfessionals
+    config:
+      cache:
+        enabled: true
+    query_params:
+      metrics:
+        - overall_paw_rating
+
+      group_by:
+        - Dimension('rating_id__trick_description')
+        - Dimension('pack_id__pack_name',['employee_id'])
+        - Dimension('pack_id__howl',['employee_id'])
+
+
+    exports:
+      - name: average_pawformance_rating_by_pack
         config:
           export_as: table
           schema: aa_metrics
