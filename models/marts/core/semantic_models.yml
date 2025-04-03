@@ -1,8 +1,9 @@
 version: 2
 
-
 semantic_models:
   - name: orders
+    config:
+      enabled: false
     description: |
       Order fact table at the order level.  This table contains one row
       per order and includes the order key
@@ -48,6 +49,8 @@ semantic_models:
         expr: customer_key
 
   - name: customers
+    config:
+      enabled: false
     description: |
       Customer dim table at the individual customer level.  This table contains one row
       per customer and includes the customer key
@@ -86,6 +89,8 @@ semantic_models:
         expr: region
   
   - name: order_items
+    config:
+      enabled: false
     description: |
       Line items for an order.  An order_key can be represented multiple times
       in this table

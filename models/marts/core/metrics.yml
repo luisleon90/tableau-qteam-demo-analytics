@@ -4,6 +4,8 @@ version: 2
 metrics:
   # Simple metrics
   - name: total_revenue
+    config:
+      enabled: false
     description: The total revenue for the business
     type: simple
     label: Total Revenue
@@ -11,6 +13,8 @@ metrics:
       measure: total_revenue
 
   - name: total_expense
+    config:
+      enabled: false
     description: The total expense for the business
     type: simple
     label: Total Expenses
@@ -18,6 +22,8 @@ metrics:
       measure: total_expense
 
   - name: total_customers
+    config:
+      enabled: false
     description: The total customers for the business
     type: simple
     label: Total Customers
@@ -26,6 +32,8 @@ metrics:
 
   # Cumulative metrics
   - name: cumulative_revenue_total
+    config:
+      enabled: false
     description: The cumulative revenue for the business
     type: cumulative
     label: Cumulative Revenue (All-Time)
@@ -33,6 +41,8 @@ metrics:
       measure: total_revenue
     
   - name: cumulative_revenue_ttm
+    config:
+      enabled: false
     description: Cumulative revenue for the trailing twelve months
     type: cumulative
     label: Cumulative Revenue (TTM)
@@ -41,6 +51,8 @@ metrics:
       window: 12 months
 
   - name: weekly_customers
+    config:
+      enabled: false
     description: Number of active weekly customers
     type: cumulative
     label: Weekly Active Customers
@@ -49,6 +61,8 @@ metrics:
       window: 7 days
 
   - name: monthly_customers
+    config:
+      enabled: false
     description: Number of active monthly customers
     type: cumulative
     label: Monthly Active Customers
@@ -58,6 +72,8 @@ metrics:
 
   # Ratio metrics     
   - name: average_revenue_per_customer
+    config:
+      enabled: false
     description: The average revenue per customer
     type: ratio
     label: Average Revenue per Customer
@@ -67,6 +83,8 @@ metrics:
 
   # Derived metrics
   - name: total_profit
+    config:
+      enabled: false
     description: The total profit for the business
     type: derived
     label: Total Profit
@@ -82,6 +100,7 @@ saved_queries:
   - name: metrics_sales_by_region
     description: Relevant sales metrics by region
     config:
+      enabled: false
       cache:
         enabled: true
     query_params:
@@ -101,6 +120,8 @@ saved_queries:
           schema: aa_metrics
 
   - name: metrics_cumulative_revenue_total
+    config:
+      enabled: false
     description: Cumulative total revenue
     query_params:
       metrics:
