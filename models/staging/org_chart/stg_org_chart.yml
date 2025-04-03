@@ -71,7 +71,7 @@ models:
 - name: stg_org_chart_DogTricks
   description: Tricks that dogs know, and their skill levels.
   columns:
-    - name: dog_id
+    - name: employee_id
       description: ID of the dog performing the trick.
       data_tests:
         - relationships:
@@ -91,7 +91,7 @@ models:
       data_tests: 
         - unique
         - not_null
-    - name: dog_id
+    - name: employee_id
       data_tests:
         - relationships:
             to: source('org_chart', 'Dogs')
@@ -121,7 +121,7 @@ models:
       data_tests: 
         - unique
         - not_null
-    - name: dog_id
+    - name: employee_id
       description: ID of the dog who went for a walk.
       data_tests:
         - relationships:
@@ -140,7 +140,7 @@ models:
 - name: stg_org_chart_DogToysOwned
   description: Toys owned by each dog.
   columns:
-    - name: dog_id
+    - name: employee_id
       description: ID of the dog who owns the toy.
       data_tests:
         - relationships:
@@ -155,7 +155,7 @@ models:
 - name: stg_org_chart_DogTrainingEnrollment
   description: Training class enrollment history of each dog.
   columns:
-    - name: dog_id
+    - name: employee_id
       description: ID of the dog enrolled in the class.
       data_tests:
         - relationships:

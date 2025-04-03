@@ -2,14 +2,14 @@ with
 
 source as (
 
-    select * from {{ source('org_chart', 'DogTrainingEnrollment') }}
+    select * from {{ ref('stg_org_chart_DogTrainingEnrollment') }}
 
 ),
 
 renamed as (
 
     select
-        dog_id as employee_id,
+        employee_id,
         class_id,
         completion_date,
         enrollment_status,

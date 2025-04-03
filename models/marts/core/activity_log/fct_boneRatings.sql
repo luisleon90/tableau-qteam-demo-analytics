@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from {{ source('org_chart', 'BoneRatings') }}
+    select * from {{ ref('stg_org_chart_BoneRatings') }}
 
 ),
 
@@ -10,7 +10,7 @@ renamed as (
 
     select
         rating_id,
-        dog_id as employee_id,
+        employee_id,
         rater_dog_id,
         rating_date,
         overall_paw_rating,

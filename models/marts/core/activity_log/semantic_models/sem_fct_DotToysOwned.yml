@@ -1,0 +1,29 @@
+semantic_models:
+- name: dog_toys_owned
+  description: Fact table representing the dog toys owned by employees, including
+    acquisition details and favorite status.
+  model: ref('fct_DotToysOwned')
+  defaults:
+    agg_time_dimension: acquired_date
+
+  entities:
+  - name: employee_id
+    type: foreign
+  - name: toy_id
+    type: primary
+
+  dimensions:
+  - name: acquired_date
+    type: time
+    type_params:
+      time_granularity: day
+  - name: is_favorite
+    expr: favorite_status
+    type: categorical
+
+  measures:
+  - name: total_toys_owned
+    description: The total number of toys owned by employees.
+    agg: count
+    create_metric: true
+    expr: toy_id

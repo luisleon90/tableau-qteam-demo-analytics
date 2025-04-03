@@ -1,0 +1,32 @@
+semantic_models:
+- name: dog_training_enrollment
+  description: Dog Training Enrollment fact table capturing enrollment details for
+    dog training classes.
+  model: ref('fct_DogTrainingEnrollment')
+  defaults:
+    agg_time_dimension: completion_date
+
+  entities:
+  - name: employee
+    type: foreign
+    expr: employee_id
+  - name: class
+    type: foreign
+    expr: class_id
+
+  dimensions:
+  - name: completion_date
+    type: time
+    type_params:
+      time_granularity: day
+  - name: enrollment_status
+    type: categorical
+  - name: notes_from_trainer
+    type: categorical
+
+  measures:
+  - name: count_class
+    agg: count_distinct
+    create_metric: true
+    expr: class_id
+  primary_entity: dog_training_enrollment
