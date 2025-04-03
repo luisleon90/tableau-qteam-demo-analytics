@@ -9,12 +9,10 @@ semantic_models:
   entities:
   - name: employee_id
     type: primary
-  - name: kennel
+  - name: kennel_id
     type: foreign
-    expr: kennel_id
-  - name: pack
+  - name: pack_id
     type: foreign
-    expr: pack_id
 
   dimensions:
   - name: bark_name
