@@ -14,6 +14,8 @@ semantic_models:
     type: foreign
   - name: rater_dog_id
     type: foreign
+  - name: trick_id
+    type: foreign
 
   dimensions:
   - name: date
@@ -23,6 +25,9 @@ semantic_models:
       time_granularity: day
   - name: status
     expr: rating_status
+    type: categorical
+  - name: trick_description
+    expr: trick_description
     type: categorical
 
   measures:
