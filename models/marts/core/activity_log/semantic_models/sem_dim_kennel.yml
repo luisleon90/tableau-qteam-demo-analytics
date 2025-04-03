@@ -1,0 +1,23 @@
+semantic_models:
+- name: kennel
+  description: A dimension table for kennels, providing details about each kennel's
+    location and identity.
+  model: ref('dim_kennel')
+  entities:
+  - name: kennel
+    type: primary
+    expr: kennel_id
+
+  dimensions:
+  - name: name
+    expr: kennel_name
+    type: categorical
+  - name: address
+    expr: kennel_address
+    type: categorical
+  - name: city_where
+    type: categorical
+  - name: state_where
+    type: categorical
+  - name: zip_code_howl
+    type: categorical
