@@ -17,6 +17,8 @@ semantic_models:
   dimensions:
   - name: proficiency_level
     type: categorical
+  - name: trick_description
+    type: categorical
   - name: last_practiced_date
     type: time
     type_params:
