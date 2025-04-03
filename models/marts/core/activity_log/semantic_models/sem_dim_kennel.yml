@@ -8,8 +8,7 @@ semantic_models:
     type: primary
 
   dimensions:
-  - name: name
-    expr: kennel_name
+  - name: kennel_name
     type: categorical
   - name: address
     expr: kennel_address

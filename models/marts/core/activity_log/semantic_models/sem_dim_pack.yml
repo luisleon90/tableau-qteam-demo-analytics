@@ -8,8 +8,7 @@ semantic_models:
     type: primary
 
   dimensions:
-  - name: name
-    expr: pack_name
+  - name: pack_name
     type: categorical
 
   - name: howl

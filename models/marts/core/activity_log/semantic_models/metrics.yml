@@ -2,7 +2,7 @@ version: 2
 
 metrics:
   # Simple metrics
-  - name: page_visit_duraiton
+  - name: page_visit_duration
     description: The total time spent on each page
     type: simple
     label: Page Visit Duration (Secs)
@@ -21,6 +21,27 @@ saved_queries:
 
       group_by:
         - Dimension('employee_id__pack_department')
+    exports:
+      - name: dogs_by_department
+        config:
+          export_as: table
+          schema: aa_metrics
+
+  - name: interactions_by_breed_per_site
+    description: Tableau Activity Log Information broken down by the Top Dogs
+    config:
+      cache:
+        enabled: true
+    query_params:
+      metrics:
+        - count_activity_log
+        - page_visit_duration
+
+      group_by:
+        - Dimension('employee_id__pack_department')
+        - Dimension('employee_id__bark_name')
+        - Dimension('employee_id__breed_title')
+
     exports:
       - name: dogs_by_department
         config:
