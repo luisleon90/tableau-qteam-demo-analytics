@@ -20,7 +20,7 @@ saved_queries:
         - count_dog
 
       group_by:
-        - Dimension('org_chart__pack_department')
+        - Dimension('employee_id__pack_department')
         - TimeDimension('metric_time', 'day')
     exports:
       - name: dogs_by_department
