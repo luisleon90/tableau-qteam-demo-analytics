@@ -41,6 +41,9 @@ saved_queries:
         - Dimension('employee_id__pack_department')
         - Dimension('employee_id__bark_name')
         - Dimension('employee_id__breed_title')
+        - Dimension('kennel_id__kennel_name',['employee_id'])
+        - Dimension('pack_id__pack_name',['employee_id'])
+
 
     exports:
       - name: dogs_by_department
