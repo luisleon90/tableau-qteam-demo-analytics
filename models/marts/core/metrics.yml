@@ -5,7 +5,7 @@ metrics:
   # Simple metrics
   - name: total_revenue
     config:
-      enabled: false
+      enabled: true
     description: The total revenue for the business
     type: simple
     label: Total Revenue
@@ -14,7 +14,7 @@ metrics:
 
   - name: total_expense
     config:
-      enabled: false
+      enabled: true
     description: The total expense for the business
     type: simple
     label: Total Expenses
@@ -23,7 +23,7 @@ metrics:
 
   - name: total_customers
     config:
-      enabled: false
+      enabled: true
     description: The total customers for the business
     type: simple
     label: Total Customers
@@ -33,7 +33,7 @@ metrics:
   # Cumulative metrics
   - name: cumulative_revenue_total
     config:
-      enabled: false
+      enabled: true
     description: The cumulative revenue for the business
     type: cumulative
     label: Cumulative Revenue (All-Time)
@@ -42,7 +42,7 @@ metrics:
     
   - name: cumulative_revenue_ttm
     config:
-      enabled: false
+      enabled: true
     description: Cumulative revenue for the trailing twelve months
     type: cumulative
     label: Cumulative Revenue (TTM)
@@ -52,7 +52,7 @@ metrics:
 
   - name: weekly_customers
     config:
-      enabled: false
+      enabled: true
     description: Number of active weekly customers
     type: cumulative
     label: Weekly Active Customers
@@ -62,7 +62,7 @@ metrics:
 
   - name: monthly_customers
     config:
-      enabled: false
+      enabled: true
     description: Number of active monthly customers
     type: cumulative
     label: Monthly Active Customers
@@ -73,7 +73,7 @@ metrics:
   # Ratio metrics     
   - name: average_revenue_per_customer
     config:
-      enabled: false
+      enabled: true
     description: The average revenue per customer
     type: ratio
     label: Average Revenue per Customer
@@ -84,7 +84,7 @@ metrics:
   # Derived metrics
   - name: total_profit
     config:
-      enabled: false
+      enabled: true
     description: The total profit for the business
     type: derived
     label: Total Profit
@@ -100,7 +100,7 @@ saved_queries:
   - name: metrics_sales_by_region
     description: Relevant sales metrics by region
     config:
-      enabled: false
+      enabled: true
       cache:
         enabled: true
     query_params:
@@ -121,7 +121,7 @@ saved_queries:
 
   - name: metrics_cumulative_revenue_total
     config:
-      enabled: false
+      enabled: true
     description: Cumulative total revenue
     query_params:
       metrics:
