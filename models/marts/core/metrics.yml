@@ -84,7 +84,7 @@ metrics:
   # Derived metrics
   - name: total_profit
     config:
-      enabled: false
+      enabled: true
     description: The total profit for the business
     type: derived
     label: Total Profit
@@ -100,7 +100,7 @@ saved_queries:
   - name: metrics_sales_by_region
     description: Relevant sales metrics by region
     config:
-      enabled: false
+      enabled: true
       cache:
         enabled: true
     query_params:
