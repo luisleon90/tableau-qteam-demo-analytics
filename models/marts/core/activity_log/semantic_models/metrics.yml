@@ -21,6 +21,10 @@ saved_queries:
 
       group_by:
         - Dimension('employee_id__pack_department')
+        - Dimension('employee_id__bark_name')
+        - Dimension('employee_id__breed_title')
+        - Dimension('kennel_id__kennel_name',['employee_id'])
+        - Dimension('pack_id__pack_name',['employee_id'])
     exports:
       - name: dogs_by_department
         config:
@@ -38,6 +42,7 @@ saved_queries:
         - page_visit_duration
 
       group_by:
+        - Dimension('activity_log__view_repo_url')
         - Dimension('employee_id__pack_department')
         - Dimension('employee_id__bark_name')
         - Dimension('employee_id__breed_title')

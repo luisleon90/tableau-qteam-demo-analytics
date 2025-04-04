@@ -17,6 +17,8 @@ semantic_models:
   dimensions:
   - name: bark_name
     type: categorical
+  - name: top_dog_id
+    type: categorical
   - name: breed_title
     type: categorical
   - name: pack_department
@@ -47,11 +49,6 @@ semantic_models:
     agg: count
     create_metric: true
     expr: employee_id
-
-  - name: count_top_dog
-    agg: count_distinct
-    create_metric: true
-    expr: top_dog_id
 
   - name: count_kennel
     agg: count_distinct
